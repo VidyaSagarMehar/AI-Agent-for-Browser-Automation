@@ -1,0 +1,33 @@
+{
+	"name": "universal-web-automation",
+	"version": "1.0.0",
+	"description": "Universal web automation CLI tool powered by AI",
+	"type": "module",
+	"main": "web-automation-cli.js",
+	"bin": {
+		"web-automation": "./web-automation-cli.js"
+	},
+	"scripts": {
+		"start": "node web-automation-cli.js",
+		"examples": "node web-automation-cli.js examples"
+	},
+	"dependencies": {
+		"@openai/agents": "^0.0.17",
+		"chalk": "^5.3.0",
+		"commander": "^11.1.0",
+		"dotenv": "^16.4.5",
+		"openai": "^5.16.0",
+		"playwright": "^1.40.0",
+		"zod": "^3.25.76"
+	},
+	"keywords": [
+		"automation",
+		"web",
+		"cli",
+		"ai",
+		"playwright",
+		"openai"
+	],
+	"author": "Your Name",
+	"license": "MIT"
+}
