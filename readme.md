@@ -41,8 +41,8 @@ Think of it as your personal AI assistant that can navigate the web, interact wi
 1. Clone the repository:
 
 ```bash
-git clone <RepoURL>
-cd web-automation
+git clone https://github.com/VidyaSagarMehar/AI-Agent-for-Browser-Automation.git
+cd AI-Agent-for-Browser-Automation
 ```
 
 2. Install dependencies:
